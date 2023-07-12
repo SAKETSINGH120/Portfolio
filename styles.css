@@ -5,9 +5,8 @@
     }
     
     .wrapper {
-        height: 100vh;
-        overflow-x: hidden;
-        overflow-y: auto;
+        width: 100%;
+        overflow-y: hidden;
     }
     
     .conatainer {
@@ -108,7 +107,7 @@
     }
     
     .onlybtn {
-        background-color: var(--bgOrange);
+        background-color: rgb(96, 75, 231);
         width: fit-content;
         color: white;
         padding: 0.8rem 2.3rem;
@@ -491,6 +490,7 @@
     }
     
     .skills-container {
+        width: 100%;
         position: relative;
         display: flex;
         padding: 5rem;
@@ -1026,7 +1026,7 @@
         background-image: url(./images/Project4.png);
     }
     
-    @media (max-width:1300px) {
+    @media (max-width:800px) {
         .page-header {
             padding-top: 30px;
             color: var(--bgOrange);
@@ -1089,6 +1089,8 @@
         padding: 5rem;
         margin: 10rem auto;
         gap: 30px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     
     .skill-container-left {
