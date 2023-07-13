@@ -1212,10 +1212,17 @@ footer {
     gap: 1rem;
 }
 
-@media(max-width:800px) {
+@media(max-width:600px) {
+    .wrapper {
+        min-width: 600px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .conatainer {
+        /* width: 600px; */
+    }
     .navbar {
-        width: 768px;
-        display: flex;
+        /* min-width: 768px ? display: flex; */
         justify-content: center;
     }
     .mainsection {
@@ -1230,11 +1237,6 @@ footer {
         margin-right: 340px;
         padding: 0 1.1rem;
         padding-bottom: 8rem;
-    }
-    .wrapper {
-        width: 100%;
-        overflow-y: hidden;
-        overflow-x: hidden;
     }
     .skills-container {
         display: flex;
