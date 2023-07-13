@@ -1212,46 +1212,28 @@ footer {
     gap: 1rem;
 }
 
-@media(max-width:600px) {
-    .wrapper {
-        min-width: 600px;
-        overflow-y: hidden;
-        overflow-x: hidden;
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 1rem;
     }
-    .conatainer {
-        /* width: 600px; */
+    .nav-items {
+        padding: 0 1rem;
     }
-    .navbar {
-        /* min-width: 768px ? display: flex; */
-        justify-content: center;
-    }
-    .mainsection {
-        display: flex;
-        flex-wrap: wrap;
+    .hero-section {
         flex-direction: column;
-        position: relative;
-        justify-content: center;
         align-items: center;
-        gap: 5rem;
-        margin: 4rem auto;
-        margin-right: 340px;
-        padding: 0 1.1rem;
-        padding-bottom: 8rem;
+        gap: 2rem;
+        padding-bottom: 4rem;
     }
-    .skills-container {
-        display: flex;
-        flex-direction: column;
+    .hero-section-left,
+    .hero-section-right {
+        text-align: center;
     }
-    .text {
-        position: absolute;
-        font-size: 7em;
-        color: rgb(231, 231, 231);
-        font-weight: bold;
-        transition: all 3s;
-        bottom: -10%;
-        left: 20px;
+    .hero-section-description {
+        width: 100%;
     }
-    .descrption {
-        max-width: 600px;
+    .project-card {
+        width: 100%;
     }
 }
