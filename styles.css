@@ -1283,3 +1283,102 @@ footer {
         display: none;
     }
 }
+
+@media(max-width:640px) {
+    .project-card {
+        max-width: 90%;
+        max-height: 190px;
+    }
+    .project-content-left {
+        bottom: 80px;
+        right: -5%;
+        gap: 4px;
+        font-size: 10px;
+    }
+    .project-content-right {
+        bottom: 80px;
+        gap: 4px;
+    }
+    .project-heading {
+        font-size: 1rem;
+    }
+    .project-sub-heading {
+        max-width: 250px;
+    }
+    .project-container {
+        position: relative;
+        margin-left: 50px;
+        gap: 20px;
+    }
+    .skills-container {
+        width: 100%;
+        bottom: 150px;
+    }
+    .something {
+        position: relative;
+        min-width: 300px;
+        font-size: 15px;
+        color: rgb(47, 55, 63);
+        right: 20%;
+        bottom: 20px;
+    }
+    .skill-heading {
+        position: relative;
+        right: 40px;
+        font-size: 25px;
+        color: blueviolet;
+    }
+    .skill-container-right {
+        width: 300px;
+        right: 25px;
+    }
+    .role {
+        font-size: 1.8rem;
+    }
+    .contactme {
+        position: relative;
+        bottom: 10px;
+    }
+    .contactus-heading {
+        font-size: 1rem;
+    }
+    .contactus-form-container {
+        position: relative;
+        bottom: 140px;
+    }
+    #contactme {
+        position: relative;
+        margin-top: 110px;
+    }
+    .contactus-sub-heading {
+        min-width: 200px;
+    }
+    .form {
+        min-width: 312px;
+        max-width: 350px;
+    }
+    .formfield-container {
+        max-height: 500px;
+    }
+    .formfield {
+        height: 35px;
+    }
+    .formfield-textarea {
+        height: 130px;
+    }
+    footer {
+        position: relative;
+        bottom: 300px;
+        max-height: 20px;
+    }
+    .footer-content {
+        position: relative;
+        bottom: 35px;
+    }
+    .yes {
+        font-size: 1.5rem;
+    }
+    .subheading {
+        font-size: 1.5rem;
+    }
+}
