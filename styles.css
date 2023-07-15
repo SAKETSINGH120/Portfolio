@@ -1300,13 +1300,18 @@ footer {
         gap: 4px;
     }
     .project-heading {
-        font-size: 1rem;
+        font-size: .8rem;
+    }
+    .project-skill {
+        width: 10px;
     }
     .project-sub-heading {
         max-width: 250px;
+        font-size: 7px;
     }
     .page-header {
         font-size: 30px;
+        color: #343d68;
     }
     .project-container {
         position: relative;
@@ -1335,8 +1340,9 @@ footer {
     .skill-container-right {
         width: 300px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        right: 10%;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
     .navbar {
         display: none;
@@ -1429,5 +1435,17 @@ footer {
     }
     .descrption {
         font-size: 12px;
+    }
+}
+
+@media(max-width:389px) {
+    .icon {
+        font-size: 24px;
+    }
+    .icon-wrapper {
+        gap: 14px;
+    }
+    .skill-container-right {
+        right: 25%;
     }
 }
